@@ -17,7 +17,7 @@ from mmdet.apis import set_random_seed, train_detector
 from mmdet.datasets import build_dataset
 from mmdet.models import build_detector
 from mmdet.utils import collect_env, get_root_logger
-from fvcore.nn import FlopCountAnalysis, flop_count_table
+# from fvcore.nn import FlopCountAnalysis, flop_count_table
 
 
 def parse_args():
