@@ -1,5 +1,6 @@
 # STViT-R for Detection
 This is an official implementation of [Making Vision Transformers Efficient from A Token Sparsification View](https://arxiv.org/pdf/2303.08685.pdf). It is based on [Swin Transformer](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection).
+
 **Notes:**
 We will further clean the code and release the checkpoints in the future.
 
