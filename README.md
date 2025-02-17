@@ -2,13 +2,13 @@
 This is an official implementation for [Making Vision Transformers Efficient from A Token Sparsification View](https://arxiv.org/pdf/2303.08685.pdf). It is based on [Swin Transformer](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection).
 
 **Notes:**
-We will further clean the code and release the checkpoints in the future.
+We have uploaded the checkpoints on Huggingface! 🎉🎉🎉
 
 ## Results on COCO
 | Model | $AP^b$ | $AP^b_{50}$ | $AP^b_{75}$ | $AP^b_s$ | $AP^m$  | $AP^m_{50}$  | $AP^m_{75}$ | $AP^m_{s}$ | log |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
-| STViT-R-Swin-S | 51.8 | 70.6 | 56.1 | 36.7 | 44.7 | 67.8 | 48.6 | 29.0 | [Link](https://github.com/changsn/STViT-R-Object-Detection/blob/main/log/20220503_175914.log) |
-| STViT-R-Swin-B | 52.2 | 70.8 | 56.8 | 36.5 | 45.2 | 68.3 | 49.1 | 29.5 | [Link](https://github.com/changsn/STViT-R-Object-Detection/blob/main/log/20220506_143719.log) |
+| [STViT-R-Swin-S](https://huggingface.co/csncsn/STViT-R/blob/main/cascade_mask_rcnn_swin_small_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.pth) | 51.8 | 70.6 | 56.1 | 36.7 | 44.7 | 67.8 | 48.6 | 29.0 | [Link](https://github.com/changsn/STViT-R-Object-Detection/blob/main/log/20220503_175914.log) |
+| [STViT-R-Swin-B](https://huggingface.co/csncsn/STViT-R/blob/main/cascade_mask_rcnn_swin_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_coco.pth) | 52.2 | 70.8 | 56.8 | 36.5 | 45.2 | 68.3 | 49.1 | 29.5 | [Link](https://github.com/changsn/STViT-R-Object-Detection/blob/main/log/20220506_143719.log) |
 ## Usage
 ### Installation
 
